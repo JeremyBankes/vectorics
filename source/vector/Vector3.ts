@@ -1,6 +1,6 @@
-import { GenericVector, Tuple3 } from "./GenericVector";
+import { Vector, Tuple3 } from "./Vector";
 
-export class Vector3 extends GenericVector<Tuple3> {
+export class Vector3 extends Vector<Tuple3> {
 
     public get x() { return this.components[0]; }
     public set x(value: number) { this.components[0] = value; }
